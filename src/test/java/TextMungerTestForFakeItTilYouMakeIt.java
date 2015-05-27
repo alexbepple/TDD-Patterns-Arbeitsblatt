@@ -1,11 +1,9 @@
-package foo;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
 
-public class TextMungerTestForTriangulate {
+public class TextMungerTestForFakeItTilYouMakeIt {
 	
 	@Test
 	public void laesstWortBisDreiZeichenUnveraendert() throws Exception {
@@ -19,11 +17,7 @@ public class TextMungerTestForTriangulate {
 	
 	private String verdrehe(String text) {
 		if ("abcd".equals(text)) {
-			return "" + 
-				text.charAt(0) + 
-				text.charAt(2) + 
-				text.charAt(1) + 
-				text.charAt(3);
+			return "acbd";
 		}
 		return text;
 	}
