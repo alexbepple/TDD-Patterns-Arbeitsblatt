@@ -1,12 +1,8 @@
 
-# Eclipse …
+Generate IDE project files using
 
-The default project layout is for Eclipse.
+    ./gradlew eclipse
 
+or
 
-# … and IDEA
-
-A project layout for IDEA is in the appropriately named branch. Use this to get to it:
-
-    git fetch origin idea:idea
-    git checkout idea
+    ./gradlew idea
